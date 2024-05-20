@@ -65,7 +65,7 @@ entry1.pack(fill='x')
 entry2 = tk.Entry(root, fg="blue", bg="lightgray", font=("Helvetica", 20), justify="center", width=30)
 entry2.pack(fill='x')
 
-button = tk.Button(root, text="Проверить блюдо на принадлежность к кухне", command=on_button_click, justify="center", fg='white', background='black')
+button = tk.Button(root, text="Проверить блюдо на принадлежность к кухне", command=on_button_click, justify="center")
 button.pack(fill='x')
 
 
